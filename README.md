@@ -23,12 +23,12 @@ Testing the server and client
 
 ## CLIENT SIDE:
 ```
-import socket
+mport socket
 HOST = "127.0.0.1"  # The server's hostname or IP address
 PORT = 65432  # The port used by the server
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
-    s.sendall(b"Hello, world")
+    s.sendall(b"Sanjay Ashwin P  212223040181")
     data = s.recv(1024)
 print(f"Received {data!r}")
 ```
@@ -64,12 +64,12 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 ```
 ## OUTPUT:
 ## SERVER SIDE:
+![Screenshot 2024-09-04 102704](https://github.com/user-attachments/assets/4d703fd2-b6cd-443b-835d-466dc20e50b8)
 
-![image](https://github.com/user-attachments/assets/8b2c4d88-aa4b-4b52-8ede-448f38929cff)
 
 ## CLIENT SIDE:
 
-![image](https://github.com/user-attachments/assets/d011ea27-deda-4488-abbc-ae0a77dff627)
+![Screenshot 2024-09-04 102614](https://github.com/user-attachments/assets/e9bdd6e6-7e6e-44e5-9282-1ec8813b80e0)
 
 ## RESULT:
 The program is executed successfully
